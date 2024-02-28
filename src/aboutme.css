@@ -1,0 +1,73 @@
+
+
+
+.aboutme-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items at the top */
+    padding: 80px;
+  }
+  
+  .text-content, .content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .profile-photo {
+    /* Float the image to the right */
+    
+    float: right;
+    margin-left: 20px; /* Add some space between the text and the image */
+    width: 350px; /* Adjust based on your preference */
+    height: auto;
+    padding-right: 200px;
+  }
+  .heading-hola{
+      font-size: 48px;
+      margin-bottom: 20px;
+  }
+  .texts{
+      font-size: 32px;
+      margin-bottom: 16px;
+  }
+  .find-me{
+      font-size: 24px;
+      margin-bottom: 16px;
+  }
+  .footer{
+      font-size: 32px;
+      color: rgba(0, 83, 35, 1);
+  }
+  @media (max-width: 768px) {
+    .profile-photo {
+      float: none;
+      margin: 0 auto; /* Center the image on smaller screens */
+      display: block;
+    }
+  }
+    
+  @keyframes drop {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    80% {
+      opacity: 1;
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .drop-letter {
+    display: inline-block;
+    animation: drop 0.5s ease forwards;
+    transition: transform 0.2s ease; /* Smooth transition for scaling */
+    cursor: pointer; /* Indicates interactivity */
+  }
+  
+  .drop-letter:hover {
+    transform: scale(1.5); /* Scale letter up on hover */
+  }
+  
