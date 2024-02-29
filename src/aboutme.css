@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start; /* Align items at the top */
-    padding: 80px;
+    padding-left: 48px;
   }
   
   .text-content, .content {
@@ -29,9 +29,11 @@
   .texts{
       font-size: 32px;
       margin-bottom: 16px;
+      line-height: 150%;
+      padding-right: 250px;
   }
   .find-me{
-      font-size: 24px;
+      font-size: 18px;
       margin-bottom: 16px;
   }
   .footer{

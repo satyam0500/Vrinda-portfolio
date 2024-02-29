@@ -41,7 +41,7 @@ function Aboutme() {
         <div className="hobbies">
         <img src={ProfilePhoto} alt="Profile Photo" className="profile-photo" />
           <h2 className="texts">Besides designing you can find me ⬇️</h2>
-          <ul>
+          <div>
             <p className="find-me">👋 writing notes to myself</p>
             <p className="find-me">☕ having coffee hours</p>
             <p className="find-me">🍄 cooking food</p>
@@ -49,15 +49,15 @@ function Aboutme() {
             <p className="find-me">🎨 drawing in my sketchbook</p>
             <p className="find-me">🪴 probably collecting way too many notebooks</p>
             <p className="find-me">✨ eating ramen </p>
-          </ul>
+          </div>
         </div>
         <div className="contact">
           <h2 className="texts">Wanna know me in person</h2>
-          <ul>
+          <div>
             <p className="find-me">email</p>
             <p className="find-me">Linkedin</p>
             <p className="find-me">9999999999</p>
-          </ul>
+          </div>
         </div>
         <div className="note">
           <h2 className="footer">Made with lots of love and caffeine</h2>
