@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./Header";
 import ProfilePhoto from "./assets/profilephoto.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./aboutme.css";
-
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 const hola = ["H", "☻", "l","a"];
-
 function Aboutme() {
   return (
     <>
@@ -42,21 +42,21 @@ function Aboutme() {
         <img src={ProfilePhoto} alt="Profile Photo" className="profile-photo" />
           <h2 className="texts">Besides designing you can find me ⬇️</h2>
           <div>
-            <p className="find-me">👋 writing notes to myself</p>
-            <p className="find-me">☕ having coffee hours</p>
-            <p className="find-me">🍄 cooking food</p>
-            <p className="find-me">🌈 watching anime</p>
-            <p className="find-me">🎨 drawing in my sketchbook</p>
-            <p className="find-me">🪴 probably collecting way too many notebooks</p>
-            <p className="find-me">✨ eating ramen </p>
+            <p className="find-me">👋 Writing Notes To Myself</p>
+            <p className="find-me">☕ Having Coffee Hours</p>
+            <p className="find-me">🍄 Cooking Food</p>
+            <p className="find-me">🌈 Watching Anime</p>
+            <p className="find-me">🎨 Drawing in my Sketchbook</p>
+            <p className="find-me">🪴 Probably Collecting Way Too Many Notebooks</p>
+            <p className="find-me">✨ Eating Ramen </p>
           </div>
         </div>
         <div className="contact">
           <h2 className="texts">Wanna know me in person</h2>
           <div>
-            <p className="find-me">email</p>
-            <p className="find-me">Linkedin</p>
-            <p className="find-me">9999999999</p>
+            <p className="find-me"><FontAwesomeIcon icon={faEnvelope} /> Email - </p>
+            <p className="find-me">Linkedin - </p>
+            <p className="find-me">Mobile No -</p>
           </div>
         </div>
         <div className="note">
