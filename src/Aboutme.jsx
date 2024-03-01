@@ -4,6 +4,7 @@ import ProfilePhoto from "./assets/profilephoto.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./aboutme.css";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
 const hola = ["H", "☻", "l","a"];
 function Aboutme() {
   return (
@@ -40,7 +41,7 @@ function Aboutme() {
         <div className="content">
         <div className="hobbies">
         <img src={ProfilePhoto} alt="Profile Photo" className="profile-photo" />
-          <h2 className="texts">Besides designing you can find me ⬇️</h2>
+          <h2 className="designing">Besides designing you can find me ⬇️</h2>
           <div>
             <p className="find-me">👋 Writing Notes To Myself</p>
             <p className="find-me">☕ Having Coffee Hours</p>
@@ -52,7 +53,7 @@ function Aboutme() {
           </div>
         </div>
         <div className="contact">
-          <h2 className="texts">Wanna know me in person</h2>
+          <h2 className="know-me">Wanna know me in person</h2>
           <div>
             <p className="find-me"><FontAwesomeIcon icon={faEnvelope} /> Email - </p>
             <p className="find-me">Linkedin - </p>

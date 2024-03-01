@@ -37,8 +37,9 @@
       margin-bottom: 16px;
   }
   .footer{
-      font-size: 32px;
+      font-size: 24px;
       color: rgba(0, 83, 35, 1);
+      padding-top: 48px;
   }
   @media (max-width: 768px) {
     .text-content{
@@ -79,3 +80,10 @@
     transform: scale(1.5); /* Scale letter up on hover */
   }
   
+  .know-me{
+    padding-top: 48px;
+  }
+
+  .designing{
+    padding-top: 48px;
+  }
