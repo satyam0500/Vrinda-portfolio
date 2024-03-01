@@ -31,15 +31,19 @@
       margin-bottom: 16px;
       line-height: 150%;
       padding-right: 20px;
+      font-family: "Urbanist", sans-serif;
   }
   .find-me{
       font-size: 18px;
       margin-bottom: 16px;
+      font-family: "Urbanist", sans-serif;
+      
   }
   .footer{
       font-size: 24px;
       color: rgba(0, 83, 35, 1);
       padding-top: 48px;
+      font-family: "Bree Serif", serif;
   }
   @media (max-width: 768px) {
     .text-content{
@@ -82,8 +86,10 @@
   
   .know-me{
     padding-top: 48px;
+    font-family: "Bree Serif", serif;
   }
 
   .designing{
     padding-top: 48px;
+    font-family: "Bree Serif", serif;
   }
