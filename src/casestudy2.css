@@ -1,5 +1,7 @@
+
 .container1 {
   padding: 40px;
+  font-family: "Urbanist", sans-serif;
 }
 
 .first-text,
@@ -18,11 +20,10 @@
   font-size: 48px;
   font-family: "Urbanist", sans-serif;
   padding-top: 20px;
-  
 }
-.image1{
-    width: 720px;
-    float:right;
+.image1 {
+  width: 720px;
+  float: right;
 }
 .labels {
   padding-top: 20px;
@@ -36,38 +37,153 @@
   background-color: rgba(217, 217, 217, 1);
   display: inline-flex;
   border-radius: 5px;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   margin-right: 5px;
 }
 
-.time{
-    font-size: 16px;
+.time {
+  font-size: 16px;
   font-family: "Urbanist", sans-serif;
 }
 .details {
-    display: flex; 
-   padding-top: 50px;
-  }
-  
-  .timeline,
-  .sector {
-    flex: 1; 
-    
-  }
-.text1{
-    font-size: 24px;
-    font-family: "Urbanist", sans-serif;
+  display: flex;
+  padding-top: 50px;
 }
 
-.text2, .design-role{
-    font-size: 20px;
-    font-family: "Urbanist", sans-serif;
+.timeline,
+.sector {
+  flex: 1;
 }
+.text1 {
+  font-size: 24px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.text2,
+.design-role {
+  font-size: 20px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container2 {
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+  font-family: "Urbanist", sans-serif;
+  .intro {
+    font-size: 24px;
+  }
+  .text3 {
+    font-size: 16px;
+    padding-top: 32px;
+    line-height: 20px;
+  }
+
+  .ultimate {
+    font-size: 30px;
+    padding-top: 24px;
+  }
+}
+
+.container3 {
+  font-family: "Urbanist", sans-serif;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+
+  .lists {
+    font-size: 24px;
+  }
+  .text4 {
+    font-size: 20px;
+    padding-top: 24px;
+  }
+  .text5,
+  .text6 {
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 20px;
+  }
+}
+
+.container4 {
+  font-family: "Urbanist", sans-serif;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+  .lists {
+    font-size: 24px;
+  }
+  .text7 {
+    font-size: 30px;
+    line-height: 32px;
+    padding-top: 32px;
+  }
+
+  .text8 {
+    font-size: 20px;
+    padding-top: 32px;
+  }
+  .text9 {
+    font-size: 16px;
+    padding-top: 32px;
+    line-height: 20px;
+  }
+
+  .boldit {
+    color: rgba(66, 109, 221, 1);
+  }
+  .layers1{
+    /* width: 50%;  */
+    background-color:rgba(1, 1, 1, 1);
+    /* padding: 30px; */
+    box-sizing: border-box;
+
+  }
+  .image2 {
+      
+      width: 250px;
+      float: right;
+      height: 420px;
+    }
+}
+
+.container5 {
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 280px;
+
+  .layers2 {
+    width: 100%; /* Adjust image frame width as needed */
+
+    background-color: rgba(
+      229,
+      231,
+      255,
+      1
+    ); /* Set background color for the frame */
+    padding: 30px; /* Add padding around the image */
+    box-sizing: border-box;
+
+    .image3 {
+      padding: 50px;
+      width: 950px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .image1 {
     width: 100%; /* Make the image take up the full width */
     float: none; /* Remove float */
     margin: 0 auto; /* Center the image */
+  }
+  .container2,
+  .container3,
+  .container4 {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 48px;
   }
 }
