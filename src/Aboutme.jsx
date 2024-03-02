@@ -57,7 +57,7 @@ function Aboutme() {
           </div>
           <div className="contact">
             <h2 className="know-me">Wanna know me in person</h2>
-            <div className="details">
+            <div className="detail">
               <p className="find-me"><FontAwesomeIcon icon={faEnvelope} /> Email - vrinyk@gmail.com</p>
               <p className="find-me">Linkedin - https://www.linkedin.com/in/vrinda-khandelwal-60bab8243/ </p>
               <p className="find-me">Mobile No -</p>
