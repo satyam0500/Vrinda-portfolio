@@ -10,7 +10,7 @@ function Homepage() {
 
     // Function to handle click event
     const redirectToAboutMe = () => {
-        navigate('/about-me'); // Redirect to About Me page
+        navigate('/case-study2'); // Redirect to About Me page
     };
     return (
         <div className="homepage">

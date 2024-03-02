@@ -1,0 +1,73 @@
+.container1 {
+  padding: 40px;
+}
+
+.first-text,
+.eventify,
+.labels {
+  font-size: 18px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.eventify {
+  padding-top: 70px;
+  padding-left: 2px;
+}
+
+.main-text {
+  font-size: 48px;
+  font-family: "Urbanist", sans-serif;
+  padding-top: 20px;
+  
+}
+.image1{
+    width: 720px;
+    float:right;
+}
+.labels {
+  padding-top: 20px;
+}
+
+.label1,
+.label2,
+.label3 {
+  width: 144px;
+  height: 35px;
+  background-color: rgba(217, 217, 217, 1);
+  display: inline-flex;
+  border-radius: 5px;
+  align-items: center; 
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.time{
+    font-size: 16px;
+  font-family: "Urbanist", sans-serif;
+}
+.details {
+    display: flex; 
+   padding-top: 50px;
+  }
+  
+  .timeline,
+  .sector {
+    flex: 1; 
+    
+  }
+.text1{
+    font-size: 24px;
+    font-family: "Urbanist", sans-serif;
+}
+
+.text2, .design-role{
+    font-size: 20px;
+    font-family: "Urbanist", sans-serif;
+}
+@media (max-width: 768px) {
+  .image1 {
+    width: 100%; /* Make the image take up the full width */
+    float: none; /* Remove float */
+    margin: 0 auto; /* Center the image */
+  }
+}
