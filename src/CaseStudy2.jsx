@@ -8,7 +8,9 @@ import singleMobile from "./assets/single-mobile.png";
 import Primarychallenges from "./assets/primaryChallenges.png";
 import goal from "./assets/goals.png";
 import compare from "./assets/compare.png";
-import mapping from "./assets/mapping.png"
+import mapping from "./assets/mapping.png";
+import findings from "./assets/findings.png";
+import useflow from "./assets/DemoUser.png";
 function CaseStudy2() {
   return (
     <div>
@@ -232,22 +234,20 @@ function CaseStudy2() {
           </span>
         </div>
       </div>
-     
+
       <div className="container12">
         <img src={mapping} className="image6" />
-      </div> 
-      <div className="text16">
-    Takeaways from the understanding of users
-  </div>
+      </div>
+      <div className="text16">Takeaways from the understanding of users</div>
 
-
-  <div className="container13">
+      <div className="container13">
         <div className="container13-heading">
           <b>Sorting the features in terms of importance and order</b>
         </div>
         <div className="text17">
           <span className="text18">
-          Given the following six features (a mix of features I sampled from researching competitors)...
+            Given the following six features (a mix of features I sampled from
+            researching competitors)...
           </span>
           <ul className="text19">
             <li>online registartion</li>
@@ -255,11 +255,37 @@ function CaseStudy2() {
             <li>different categories of events</li>
             <li>Price/ Tickets to buy</li>
           </ul>
+
+          <span className="text20">
+            Sorting in terms of importance gave me a sense of which features to
+            emphasize and sorting in terms of order gave me a sense of
+            preference for page navigation. It also highlighted the difference
+            in value people have for their own page and for other's pages.
+          </span>
         </div>
+      </div>
 
+      <div className="container14">
+        <img src={findings} className="image7" />
+      </div>
+
+      <div className="container15">
+        <div className="lists">
+          <b>
+            <img src={ellipse}></img> Design
+          </b>
         </div>
-
-
+        <div className="text21">
+          <span>
+            I designed the user experience by imagining the user flow, followed
+            with a wireframe (1) and complete prototype (1), each accompanied
+            with user testing.
+          </span>
+        </div>
+        <div className="container15-image">
+        <img src={useflow} className="image8" />
+        </div>
+      </div>
     </div>
   );
 }
