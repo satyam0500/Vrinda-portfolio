@@ -142,8 +142,6 @@
 
   }
   .image2 {
-      
-      width: 250px;
       float: right;
       height: 420px;
     }
@@ -153,24 +151,121 @@
   padding-right: 200px;
   padding-left: 200px;
   padding-top: 280px;
-
-  .layers2 {
-    width: 100%; /* Adjust image frame width as needed */
-
-    background-color: rgba(
-      229,
-      231,
-      255,
-      1
-    ); /* Set background color for the frame */
-    padding: 30px; /* Add padding around the image */
-    box-sizing: border-box;
-
+  
     .image3 {
-      padding: 50px;
-      width: 950px;
-    }
+      
+      max-width: 100%;
   }
+}
+
+.container7,.container9{
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.image4,.image5{
+  max-width: 100%;
+}
+
+.container8{
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container8-heading{
+  font-size: 30px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.text10{
+  font-size: 36px;
+  padding-top: 32px;
+}
+.text11{
+  font-size: 16px;
+  padding-top: 32px;
+  line-height: 20px;
+}
+
+.container10{
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container10-text{
+  font-size: 24px;
+}
+.text12{
+  font-size:20px;
+  padding-top: 32px;
+}
+.text13{
+  font-size:36px;
+  padding-top: 32px;
+}
+.text14{
+  font-size:20px;
+  padding-top: 32px;
+}
+.image10 {
+  float: right;
+height:420px;
+}
+.container11{
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container11-heading{
+  font-size: 30px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.text15{
+  font-size: 16px;
+  padding-top: 32px;
+  line-height: 20px;
+}
+
+.container12{
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.image6{
+  max-width: 100%;
+}
+
+.text16{
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+}
+.container13{
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+.container13-heading{
+  font-size: 30px;
+  font-family: "Urbanist", sans-serif;
+}
+.text17{
+  padding-top: 32px;
+}
+.text18,.text19{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "Urbanist", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -179,11 +274,15 @@
     float: none; /* Remove float */
     margin: 0 auto; /* Center the image */
   }
+  .image10{
+    width:100%
+  }
   .container2,
   .container3,
-  .container4 {
+  .container4,.container5,.container7,.container8,.container9,.container10,.container11,.container12,.container13 {
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 48px;
+ 
   }
 }

@@ -5,6 +5,10 @@ import eventifyImage from "./assets/eventify-app-design.png";
 import ellipse from "./assets/Ellipse.png";
 import mobile from "./assets/mobile-images.png";
 import singleMobile from "./assets/single-mobile.png";
+import Primarychallenges from "./assets/primaryChallenges.png";
+import goal from "./assets/goals.png";
+import compare from "./assets/compare.png";
+import mapping from "./assets/mapping.png"
 function CaseStudy2() {
   return (
     <div>
@@ -120,9 +124,9 @@ function CaseStudy2() {
             <img src={ellipse}></img> Solutions
           </b>
         </div>
-        {/* <div className="layers1">
+        <div className="layers1">
           <img src={singleMobile} alt="image" className="image2"></img>
-        </div> */}
+        </div>
         <div className="text7">
           <b>
             Make reaching people easily and quick within your range engage with
@@ -145,11 +149,117 @@ function CaseStudy2() {
         </div>
       </div>
 
-      {/* <div className="container5">
+      <div className="container5">
         <div className="layers2">
           <img src={mobile} className="image3" />
         </div>
-      </div> */}
+      </div>
+
+      <div className="container7">
+        <img src={Primarychallenges} className="image4" />
+      </div>
+
+      <div className="container8">
+        <div className="container8-heading">
+          <b>COMPETITIVE ANALYSIS</b>
+        </div>
+
+        <div className="text10">
+          <b>
+            The demand for event planning apps has due to the need for efficient
+            organization in today's busy world.
+          </b>
+        </div>
+
+        <div className="text11">
+          <span>
+            While it's true that there's no shortage of competitors in this
+            space, each brings its own unique blend of services and features to
+            the table, enriching the options available to users .So, let's take
+            it easy and explore what's out there. Who knows, we might find some
+            awesome inspiration along the way!
+          </span>
+        </div>
+      </div>
+
+      <div className="container9">
+        <img src={goal} className="image5" />
+      </div>
+
+      <div className="container10">
+        <div className="container10-text">
+          How would <b>Eventify</b> compare?
+        </div>
+        <div className="layers10">
+          <img src={compare} alt="image" className="image10"></img>
+        </div>
+        <div className="text12">
+          A combination of its competitors, Eventify would offers a broader
+          range of features for both casual and professional event planning.
+          It's like the Swiss Army knife of event apps, with tons of
+          customization options, advanced management tools, and collaboration
+          features.
+        </div>
+
+        <div className="text13">
+          <b>
+            Professionals can effortlessly organize events while keeping up with
+            their hectic schedules.
+          </b>
+        </div>
+
+        <div className="text14">
+          <span>
+            Eventify is like having a trusty sidekick for busy professionals,
+            planning a conference or a company retreat, Eventify is there to
+            lend a helping hand, making event planning feel like a walk in the
+            park!
+          </span>
+        </div>
+      </div>
+
+      <div className="container11">
+        <div className="container11-heading">
+          <b>MAPPING & SORTING</b>
+        </div>
+
+        <div className="text15">
+          <span>
+            I also asked them if there were anything they would be curious about
+            when checking out events, gain a deeper understanding of users, the
+            issues they come across, what they want and need, and how they
+            behave.
+          </span>
+        </div>
+      </div>
+     
+      <div className="container12">
+        <img src={mapping} className="image6" />
+      </div> 
+      <div className="text16">
+    Takeaways from the understanding of users
+  </div>
+
+
+  <div className="container13">
+        <div className="container13-heading">
+          <b>Sorting the features in terms of importance and order</b>
+        </div>
+        <div className="text17">
+          <span className="text18">
+          Given the following six features (a mix of features I sampled from researching competitors)...
+          </span>
+          <ul className="text19">
+            <li>online registartion</li>
+            <li> locationg Distance from your location</li>
+            <li>different categories of events</li>
+            <li>Price/ Tickets to buy</li>
+          </ul>
+        </div>
+
+        </div>
+
+
     </div>
   );
 }
